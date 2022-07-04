@@ -1,21 +1,21 @@
-name: "Docker Actions"
+# name: Docker Actions
 
-on: [push]
+# on: [push]
 
-jobs:
+# jobs:
 
-  action:
+#   action:
 
-    runs-on: "ubuntu-latest"
+#     runs-on: ubuntu-latest
 
-    steps:
+#     steps:
 
-      - uses: actions/checkout@v1
+#     - uses: actions/checkout@v1
 
-      - name: "hello-action"
+#     - name: hello-action
 
-        uses: ./.github/actions/hello-world
+#       uses: ./.github/actions/hello-world
 
-        with:
+#       with:
 
-          firstGreeting: "Learning Lab User"
+#         firstGreeting: "Learning Lab User"
